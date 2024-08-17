@@ -39,24 +39,11 @@ Rules:
 
 This leaderboard showcases the performance of various models in terms of their Mean Average Precision (mAP) values.
 
-| #   | Name | IoU | Dice Coef | Accuracy | Speed (FPS) | List of Parameters | Creators              |
+| #   | Name | Dataset version | IoU | Dice Coef | Accuracy | Speed (FPS) | List of Parameters | Creators              |
 | --- | ---- | ---- |---- | ---- |---- | ---- |-----------          |
-| 1   | april9120sLLO.pt | 0.9355 | 0.9558 | 0.9716 | 12.89 | <details> imgsz = 640 </details> | Matt, Ryan, John      |
-| 2   | LLOnly120.pt | 0.7804 | 0.8408 | 0.8644 | 12.74 | Matt, Ryan, John      |
-| 3   | 0.78  | Eve, Frank            |
-| 4   | 0.76  | Grace, Henry          |
-| 5   | 0.74  | Ivy, Jack             |
+| 1   | april9120sLLO.pt | 7 | 0.9355 | 0.9558 | 0.9716 | 12.89 | <details> imgsz = 640 </details> | Matt, Ryan, John      |
+| 2   | LLOnly120.pt | 7 | 0.7804 | 0.8408 | 0.8644 | 12.74 | <details> imgsz = 640 </details> | Matt, Ryan, John      |
 
 ## How to Contribute
 
-To add your model to the leaderboard, please create a pull request with the following information:
-- Model name
-- mAP value
-- Names of the creators
-
-Please make sure your mAP value is computed using the same dataset and evaluation metrics as the other models on this leaderboard.
-
-## Evaluation Criteria
-
-- The mAP value should be calculated based on [specific dataset name].
-- All models should follow the same evaluation protocol to ensure fair comparison.
+To add your model to the leaderboard, you may edit the main branch README after you have trained and tested the model. Testing must be done using the model_test.py script.
