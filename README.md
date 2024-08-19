@@ -40,7 +40,7 @@ Rules:
 This leaderboard showcases the performance of various models in terms of their Mean Average Precision (mAP) values.
 
 | #   | Name | Dataset version | IoU | Dice Coef | Accuracy | Speed (FPS) | List of Parameters | Creators              |
-| --- | ---- | ---- |---- | ---- |---- | ---- |-----------          |
+| --- | ---- | ---- |---- | ---- |---- | ---- | ---- | -----------          |
 | 1   | april9120sLLO.pt | 7 | 0.9355 | 0.9558 | 0.9716 | 12.89 | <details> imgsz = 640 </details> | Matt, Ryan, John      |
 | 2   | LLOnly120.pt | 7 | 0.7804 | 0.8408 | 0.8644 | 12.74 | <details> imgsz = 640 </details> | Matt, Ryan, John      |
 
